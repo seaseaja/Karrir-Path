@@ -2,6 +2,6 @@ import { NextResponse } from "next/server";
 
 export async function POST() {
   return NextResponse.json({
-    message: "Register sementara dimatikan (maintenance mode)",
+    message: "Register sementara dimatikan",
   });
 }
