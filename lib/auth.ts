@@ -12,7 +12,6 @@ export const authOptions: NextAuthOptions = {
       credentials: {},
 
       async authorize() {
-        // sementara dummy user biar gak crash
         return {
           id: "1",
           email: "test@test.com",
